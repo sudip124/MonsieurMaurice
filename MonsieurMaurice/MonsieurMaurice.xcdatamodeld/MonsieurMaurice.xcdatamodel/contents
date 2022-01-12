@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12E55" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Notes" representedClassName="Notes" syncable="YES">
+        <attribute name="accessory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagepath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES">
+        <attribute name="belts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="beltsWaist" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="footWear" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gloves" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="glovesHand" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hats" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imagePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jeans" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="jeansHeight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="jeansWaist" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outerwearBust" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outerwearWaist" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="profileLang" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rings" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shirts" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="suit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="systemUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trousers" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trousersWaist" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="underwearBottom" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uniqueID" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Notes" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Profile" positionX="-11" positionY="198" width="128" height="405"/>
+    </elements>
+</model>

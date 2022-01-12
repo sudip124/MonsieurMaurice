@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ACE1BC817D7AC85009E1082 /* shirt_suit_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE1BC417D7AC85009E1082 /* shirt_suit_right.png */; };
+		4ACE1BC917D7AC85009E1082 /* shirt_suit_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE1BC517D7AC85009E1082 /* shirt_suit_right@2x.png */; };
+		4ACE1BCA17D7AC85009E1082 /* suit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE1BC617D7AC85009E1082 /* suit.png */; };
+		4ACE1BCB17D7AC85009E1082 /* suit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ACE1BC717D7AC85009E1082 /* suit@2x.png */; };
+		5115859817E5943A0008F329 /* WomenOuterWearVewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5115859717E5943A0008F329 /* WomenOuterWearVewController.m */; };
+		5115859A17E5A1720008F329 /* womanouterwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 5115859917E5A1720008F329 /* womanouterwear.json */; };
+		51248CF917E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51248CF817E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.m */; };
+		51927E5C17DC858900CA5C14 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = 51927E5617DC858800CA5C14 /* us.png */; };
+		51927E5D17DC858900CA5C14 /* us@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51927E5717DC858900CA5C14 /* us@2x.png */; };
+		51927E5E17DC858900CA5C14 /* usue.png in Resources */ = {isa = PBXBuildFile; fileRef = 51927E5817DC858900CA5C14 /* usue.png */; };
+		51927E5F17DC858900CA5C14 /* usue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51927E5917DC858900CA5C14 /* usue@2x.png */; };
+		51927E6017DC858900CA5C14 /* usukue.png in Resources */ = {isa = PBXBuildFile; fileRef = 51927E5A17DC858900CA5C14 /* usukue.png */; };
+		51927E6117DC858900CA5C14 /* usukue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51927E5B17DC858900CA5C14 /* usukue@2x.png */; };
+		51EF967817DE50AA00D0322C /* JeansAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B28CBA17DE40B0008AC6B6 /* JeansAccessoryViewController.m */; };
+		6834BE7B17E850F2002A1D91 /* wl.png in Resources */ = {isa = PBXBuildFile; fileRef = 6834BE7917E850F2002A1D91 /* wl.png */; };
+		6834BE7C17E850F2002A1D91 /* wl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6834BE7A17E850F2002A1D91 /* wl@2x.png */; };
+		6834BE8117E86BFF002A1D91 /* sizecmin.png in Resources */ = {isa = PBXBuildFile; fileRef = 6834BE7D17E86BFF002A1D91 /* sizecmin.png */; };
+		6834BE8217E86BFF002A1D91 /* sizecmin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6834BE7E17E86BFF002A1D91 /* sizecmin@2x.png */; };
+		6834BE8317E86BFF002A1D91 /* sizein.png in Resources */ = {isa = PBXBuildFile; fileRef = 6834BE7F17E86BFF002A1D91 /* sizein.png */; };
+		6834BE8417E86BFF002A1D91 /* sizein@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6834BE8017E86BFF002A1D91 /* sizein@2x.png */; };
+		68660FAD17D9F30F00C0C1AF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68660FAC17D9F30F00C0C1AF /* SystemConfiguration.framework */; };
+		68660FB117D9F34C00C0C1AF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 68660FB017D9F34C00C0C1AF /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6879836517D8AE7F0000315C /* babyfootwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879834E17D8AE7E0000315C /* babyfootwear.json */; };
+		6879836617D8AE7F0000315C /* babywear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879834F17D8AE7E0000315C /* babywear.json */; };
+		6879836717D8AE7F0000315C /* kidboyfootwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835017D8AE7E0000315C /* kidboyfootwear.json */; };
+		6879836817D8AE7F0000315C /* kidboywear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835117D8AE7E0000315C /* kidboywear.json */; };
+		6879836917D8AE7F0000315C /* kidgirlwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835217D8AE7E0000315C /* kidgirlwear.json */; };
+		6879836A17D8AE7F0000315C /* manbelts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835317D8AE7E0000315C /* manbelts.json */; };
+		6879836B17D8AE7F0000315C /* manfootwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835417D8AE7E0000315C /* manfootwear.json */; };
+		6879836C17D8AE7F0000315C /* mangloves.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835517D8AE7E0000315C /* mangloves.json */; };
+		6879836D17D8AE7F0000315C /* manhats.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835617D8AE7E0000315C /* manhats.json */; };
+		6879836E17D8AE7F0000315C /* manrings.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835717D8AE7E0000315C /* manrings.json */; };
+		6879836F17D8AE7F0000315C /* mantrousers.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835817D8AE7E0000315C /* mantrousers.json */; };
+		6879837017D8AE7F0000315C /* manunderwearbottom.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835917D8AE7E0000315C /* manunderwearbottom.json */; };
+		6879837117D8AE7F0000315C /* toddlerboy.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835A17D8AE7E0000315C /* toddlerboy.json */; };
+		6879837217D8AE7F0000315C /* toddlerboywear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835B17D8AE7E0000315C /* toddlerboywear.json */; };
+		6879837317D8AE7F0000315C /* toddlergirl.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835C17D8AE7E0000315C /* toddlergirl.json */; };
+		6879837417D8AE7F0000315C /* toddlergirlwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835D17D8AE7E0000315C /* toddlergirlwear.json */; };
+		6879837517D8AE7F0000315C /* womanbelts.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835E17D8AE7E0000315C /* womanbelts.json */; };
+		6879837617D8AE7F0000315C /* womanfootwear.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879835F17D8AE7E0000315C /* womanfootwear.json */; };
+		6879837717D8AE7F0000315C /* womangloves.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879836017D8AE7E0000315C /* womangloves.json */; };
+		6879837817D8AE7F0000315C /* womanhats.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879836117D8AE7E0000315C /* womanhats.json */; };
+		6879837917D8AE7F0000315C /* womanrings.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879836217D8AE7E0000315C /* womanrings.json */; };
+		6879837A17D8AE7F0000315C /* womantrousers.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879836317D8AE7F0000315C /* womantrousers.json */; };
+		6879837B17D8AE7F0000315C /* womanunderwearbottom.json in Resources */ = {isa = PBXBuildFile; fileRef = 6879836417D8AE7F0000315C /* womanunderwearbottom.json */; };
+		687A982217E7391300AE2D6E /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 687A982117E7391300AE2D6E /* Profile.m */; };
+		68CE0AE117DF2E6B00F49889 /* manjeans1.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CE0ADD17DF2E6B00F49889 /* manjeans1.json */; };
+		68CE0AE217DF2E6B00F49889 /* manjeans2.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CE0ADE17DF2E6B00F49889 /* manjeans2.json */; };
+		68CE0AE317DF2E6B00F49889 /* womanjeans1.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CE0ADF17DF2E6B00F49889 /* womanjeans1.json */; };
+		68CE0AE417DF2E6B00F49889 /* womanjeans2.json in Resources */ = {isa = PBXBuildFile; fileRef = 68CE0AE017DF2E6B00F49889 /* womanjeans2.json */; };
+		8B02051717CCFE18008E3895 /* header-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02051617CCFE18008E3895 /* header-bg.png */; };
+		8B02051917CCFEA0008E3895 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02051817CCFEA0008E3895 /* logo@2x.png */; };
+		8B02051B17CCFF10008E3895 /* face@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02051A17CCFF10008E3895 /* face@2x.png */; };
+		8B02051E17CD0034008E3895 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02051C17CD0034008E3895 /* tick.png */; };
+		8B02051F17CD0034008E3895 /* tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02051D17CD0034008E3895 /* tick@2x.png */; };
+		8B02053B17CD0055008E3895 /* belts.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052117CD0055008E3895 /* belts.png */; };
+		8B02053C17CD0055008E3895 /* belts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052217CD0055008E3895 /* belts@2x.png */; };
+		8B02053D17CD0055008E3895 /* footwear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052317CD0055008E3895 /* footwear.png */; };
+		8B02053E17CD0055008E3895 /* footwear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052417CD0055008E3895 /* footwear@2x.png */; };
+		8B02053F17CD0055008E3895 /* gloves.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052517CD0055008E3895 /* gloves.png */; };
+		8B02054017CD0055008E3895 /* gloves@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052617CD0055008E3895 /* gloves@2x.png */; };
+		8B02054117CD0055008E3895 /* hats.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052717CD0055008E3895 /* hats.png */; };
+		8B02054217CD0055008E3895 /* hats@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052817CD0055008E3895 /* hats@2x.png */; };
+		8B02054317CD0055008E3895 /* jeans.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052917CD0055008E3895 /* jeans.png */; };
+		8B02054417CD0055008E3895 /* jeans@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052A17CD0055008E3895 /* jeans@2x.png */; };
+		8B02054517CD0055008E3895 /* outerwear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052B17CD0055008E3895 /* outerwear.png */; };
+		8B02054617CD0055008E3895 /* outerwear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052C17CD0055008E3895 /* outerwear@2x.png */; };
+		8B02054717CD0055008E3895 /* rings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052D17CD0055008E3895 /* rings.png */; };
+		8B02054817CD0055008E3895 /* rings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052E17CD0055008E3895 /* rings@2x.png */; };
+		8B02054917CD0055008E3895 /* shirts.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02052F17CD0055008E3895 /* shirts.png */; };
+		8B02054A17CD0055008E3895 /* shirts@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053017CD0055008E3895 /* shirts@2x.png */; };
+		8B02054B17CD0055008E3895 /* trouser.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053117CD0055008E3895 /* trouser.png */; };
+		8B02054C17CD0055008E3895 /* trouser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053217CD0055008E3895 /* trouser@2x.png */; };
+		8B02054D17CD0055008E3895 /* underwear-bottom-for-men.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053317CD0055008E3895 /* underwear-bottom-for-men.png */; };
+		8B02054E17CD0055008E3895 /* underwear-bottom-for-men@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053417CD0055008E3895 /* underwear-bottom-for-men@2x.png */; };
+		8B02054F17CD0055008E3895 /* underwear-bottom-for-women.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053517CD0055008E3895 /* underwear-bottom-for-women.png */; };
+		8B02055017CD0055008E3895 /* underwear-bottom-for-women@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053617CD0055008E3895 /* underwear-bottom-for-women@2x.png */; };
+		8B02055117CD0055008E3895 /* underwear-top-for-women.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053717CD0055008E3895 /* underwear-top-for-women.png */; };
+		8B02055217CD0055008E3895 /* underwear-top-for-women@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053817CD0055008E3895 /* underwear-top-for-women@2x.png */; };
+		8B02055317CD0055008E3895 /* wear.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053917CD0055008E3895 /* wear.png */; };
+		8B02055417CD0055008E3895 /* wear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02053A17CD0055008E3895 /* wear@2x.png */; };
+		8B02055617CD0444008E3895 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B02055517CD0444008E3895 /* background@2x.png */; };
+		8B02055917CD0F77008E3895 /* NotePadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02055817CD0F77008E3895 /* NotePadViewController.m */; };
+		8B02055C17CD1BC0008E3895 /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B02055B17CD1BC0008E3895 /* Notes.m */; };
+		8B481C5417D0729C001AFD5B /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B481C5317D0729C001AFD5B /* ContactsViewController.m */; };
+		8B481C5717D07C17001AFD5B /* inswigo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B481C5517D07C16001AFD5B /* inswigo.png */; };
+		8B481C5817D07C17001AFD5B /* inswigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B481C5617D07C16001AFD5B /* inswigo@2x.png */; };
+		8B481C5F17D0EEE9001AFD5B /* CustomOrdersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B481C5E17D0EEE8001AFD5B /* CustomOrdersViewController.m */; };
+		8B6ABF3617CF209700C20E2E /* arrow-light.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF3217CF209700C20E2E /* arrow-light.png */; };
+		8B6ABF3717CF209700C20E2E /* arrow-light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF3317CF209700C20E2E /* arrow-light@2x.png */; };
+		8B6ABF3817CF209700C20E2E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF3417CF209700C20E2E /* arrow.png */; };
+		8B6ABF3917CF209700C20E2E /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF3517CF209700C20E2E /* arrow@2x.png */; };
+		8B6ABF4D17CF596100C20E2E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF4717CF596100C20E2E /* Icon-72.png */; };
+		8B6ABF4E17CF596100C20E2E /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF4817CF596100C20E2E /* Icon-72@2x.png */; };
+		8B6ABF4F17CF596100C20E2E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF4917CF596100C20E2E /* Icon-Small.png */; };
+		8B6ABF5017CF596100C20E2E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF4A17CF596100C20E2E /* Icon-Small@2x.png */; };
+		8B6ABF5117CF596100C20E2E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF4B17CF596100C20E2E /* Icon.png */; };
+		8B6ABF5217CF596100C20E2E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B6ABF4C17CF596100C20E2E /* Icon@2x.png */; };
+		8B7625F317C2117900B17F87 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B7625F217C2117900B17F87 /* background.png */; };
+		8B76260A17C2591D00B17F87 /* NameForProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B76260917C2591D00B17F87 /* NameForProfileViewController.m */; };
+		8B8667A417CE3BC7003C6299 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B75E68417CE395D006157FB /* MainPageViewController.m */; };
+		8B9D232517BFD01A008AB4B4 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B9D232417BFD01A008AB4B4 /* face.png */; };
+		8B9D234A17BFD0EF008AB4B4 /* ProfilePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D234917BFD0EF008AB4B4 /* ProfilePageViewController.m */; };
+		8B9D234D17BFD171008AB4B4 /* CodGenderAgeControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D234C17BFD171008AB4B4 /* CodGenderAgeControllerViewController.m */; };
+		8B9D235017BFD1BC008AB4B4 /* CustomPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9D234F17BFD1BB008AB4B4 /* CustomPickerViewController.m */; };
+		8BA47B9617BCDFDE00D4E653 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA47B9517BCDFDE00D4E653 /* UIKit.framework */; };
+		8BA47B9817BCDFDE00D4E653 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA47B9717BCDFDE00D4E653 /* Foundation.framework */; };
+		8BA47B9A17BCDFDE00D4E653 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA47B9917BCDFDE00D4E653 /* CoreGraphics.framework */; };
+		8BA47B9C17BCDFDE00D4E653 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA47B9B17BCDFDE00D4E653 /* CoreData.framework */; };
+		8BA47BA217BCDFDE00D4E653 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BA017BCDFDE00D4E653 /* InfoPlist.strings */; };
+		8BA47BA417BCDFDE00D4E653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA47BA317BCDFDE00D4E653 /* main.m */; };
+		8BA47BA817BCDFDE00D4E653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA47BA717BCDFDE00D4E653 /* AppDelegate.m */; };
+		8BA47BAA17BCDFDE00D4E653 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BA917BCDFDE00D4E653 /* Default.png */; };
+		8BA47BAC17BCDFDE00D4E653 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BAB17BCDFDE00D4E653 /* Default@2x.png */; };
+		8BA47BAE17BCDFDE00D4E653 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BAD17BCDFDE00D4E653 /* Default-568h@2x.png */; };
+		8BA47BB117BCDFDE00D4E653 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BAF17BCDFDE00D4E653 /* MainStoryboard.storyboard */; };
+		8BA47BB417BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BA47BB217BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodeld */; };
+		8BA47BB717BCDFDE00D4E653 /* ProfileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA47BB617BCDFDE00D4E653 /* ProfileListViewController.m */; };
+		8BA47BC517BCE3F600D4E653 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BC417BCE3F600D4E653 /* logo.png */; };
+		8BA47BD117BCECFF00D4E653 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BA47BD317BCECFF00D4E653 /* Localizable.strings */; };
+		8BA47BE117BCF06B00D4E653 /* RSSFeedDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA47BDE17BCF06B00D4E653 /* RSSFeedDetailsViewController.m */; };
+		8BA47BE217BCF06B00D4E653 /* RSSFeedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BA47BE017BCF06B00D4E653 /* RSSFeedListViewController.m */; };
+		8BB179D617BE1970000EE162 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB179D517BE1970000EE162 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A140E3917D901E70002918D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4ACE1BC417D7AC85009E1082 /* shirt_suit_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirt_suit_right.png; sourceTree = "<group>"; };
+		4ACE1BC517D7AC85009E1082 /* shirt_suit_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirt_suit_right@2x.png"; sourceTree = "<group>"; };
+		4ACE1BC617D7AC85009E1082 /* suit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suit.png; sourceTree = "<group>"; };
+		4ACE1BC717D7AC85009E1082 /* suit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suit@2x.png"; sourceTree = "<group>"; };
+		5115859617E5943A0008F329 /* WomenOuterWearVewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WomenOuterWearVewController.h; path = Controllers/WomenOuterWearVewController.h; sourceTree = "<group>"; };
+		5115859717E5943A0008F329 /* WomenOuterWearVewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WomenOuterWearVewController.m; path = Controllers/WomenOuterWearVewController.m; sourceTree = "<group>"; };
+		5115859917E5A1720008F329 /* womanouterwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanouterwear.json; sourceTree = "<group>"; };
+		51248CF717E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WomanUnderwearPickerViewController.h; path = Controllers/WomanUnderwearPickerViewController.h; sourceTree = "<group>"; };
+		51248CF817E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WomanUnderwearPickerViewController.m; path = Controllers/WomanUnderwearPickerViewController.m; sourceTree = "<group>"; };
+		51927E5617DC858800CA5C14 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = us.png; path = MonsieurMaurice/Resources/us.png; sourceTree = SOURCE_ROOT; };
+		51927E5717DC858900CA5C14 /* us@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "us@2x.png"; path = "MonsieurMaurice/Resources/us@2x.png"; sourceTree = SOURCE_ROOT; };
+		51927E5817DC858900CA5C14 /* usue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usue.png; path = MonsieurMaurice/Resources/usue.png; sourceTree = SOURCE_ROOT; };
+		51927E5917DC858900CA5C14 /* usue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usue@2x.png"; path = "MonsieurMaurice/Resources/usue@2x.png"; sourceTree = SOURCE_ROOT; };
+		51927E5A17DC858900CA5C14 /* usukue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = usukue.png; path = MonsieurMaurice/Resources/usukue.png; sourceTree = SOURCE_ROOT; };
+		51927E5B17DC858900CA5C14 /* usukue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "usukue@2x.png"; path = "MonsieurMaurice/Resources/usukue@2x.png"; sourceTree = SOURCE_ROOT; };
+		51B28CB917DE40B0008AC6B6 /* JeansAccessoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JeansAccessoryViewController.h; path = Controllers/JeansAccessoryViewController.h; sourceTree = "<group>"; };
+		51B28CBA17DE40B0008AC6B6 /* JeansAccessoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JeansAccessoryViewController.m; path = Controllers/JeansAccessoryViewController.m; sourceTree = "<group>"; };
+		6834BE7917E850F2002A1D91 /* wl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wl.png; path = Resources/wl.png; sourceTree = "<group>"; };
+		6834BE7A17E850F2002A1D91 /* wl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wl@2x.png"; path = "Resources/wl@2x.png"; sourceTree = "<group>"; };
+		6834BE7D17E86BFF002A1D91 /* sizecmin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sizecmin.png; path = Resources/sizecmin.png; sourceTree = "<group>"; };
+		6834BE7E17E86BFF002A1D91 /* sizecmin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sizecmin@2x.png"; path = "Resources/sizecmin@2x.png"; sourceTree = "<group>"; };
+		6834BE7F17E86BFF002A1D91 /* sizein.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sizein.png; path = Resources/sizein.png; sourceTree = "<group>"; };
+		6834BE8017E86BFF002A1D91 /* sizein@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sizein@2x.png"; path = "Resources/sizein@2x.png"; sourceTree = "<group>"; };
+		6834BE8917E9E4A0002A1D91 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		68660FAC17D9F30F00C0C1AF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68660FAF17D9F34C00C0C1AF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		68660FB017D9F34C00C0C1AF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6879834E17D8AE7E0000315C /* babyfootwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = babyfootwear.json; sourceTree = "<group>"; };
+		6879834F17D8AE7E0000315C /* babywear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = babywear.json; sourceTree = "<group>"; };
+		6879835017D8AE7E0000315C /* kidboyfootwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kidboyfootwear.json; sourceTree = "<group>"; };
+		6879835117D8AE7E0000315C /* kidboywear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kidboywear.json; sourceTree = "<group>"; };
+		6879835217D8AE7E0000315C /* kidgirlwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kidgirlwear.json; sourceTree = "<group>"; };
+		6879835317D8AE7E0000315C /* manbelts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manbelts.json; sourceTree = "<group>"; };
+		6879835417D8AE7E0000315C /* manfootwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manfootwear.json; sourceTree = "<group>"; };
+		6879835517D8AE7E0000315C /* mangloves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mangloves.json; sourceTree = "<group>"; };
+		6879835617D8AE7E0000315C /* manhats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manhats.json; sourceTree = "<group>"; };
+		6879835717D8AE7E0000315C /* manrings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manrings.json; sourceTree = "<group>"; };
+		6879835817D8AE7E0000315C /* mantrousers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mantrousers.json; sourceTree = "<group>"; };
+		6879835917D8AE7E0000315C /* manunderwearbottom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manunderwearbottom.json; sourceTree = "<group>"; };
+		6879835A17D8AE7E0000315C /* toddlerboy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toddlerboy.json; sourceTree = "<group>"; };
+		6879835B17D8AE7E0000315C /* toddlerboywear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toddlerboywear.json; sourceTree = "<group>"; };
+		6879835C17D8AE7E0000315C /* toddlergirl.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toddlergirl.json; sourceTree = "<group>"; };
+		6879835D17D8AE7E0000315C /* toddlergirlwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = toddlergirlwear.json; sourceTree = "<group>"; };
+		6879835E17D8AE7E0000315C /* womanbelts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanbelts.json; sourceTree = "<group>"; };
+		6879835F17D8AE7E0000315C /* womanfootwear.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanfootwear.json; sourceTree = "<group>"; };
+		6879836017D8AE7E0000315C /* womangloves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womangloves.json; sourceTree = "<group>"; };
+		6879836117D8AE7E0000315C /* womanhats.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanhats.json; sourceTree = "<group>"; };
+		6879836217D8AE7E0000315C /* womanrings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanrings.json; sourceTree = "<group>"; };
+		6879836317D8AE7F0000315C /* womantrousers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womantrousers.json; sourceTree = "<group>"; };
+		6879836417D8AE7F0000315C /* womanunderwearbottom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanunderwearbottom.json; sourceTree = "<group>"; };
+		687A982017E7391300AE2D6E /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profile.h; path = Models/Profile.h; sourceTree = "<group>"; };
+		687A982117E7391300AE2D6E /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Profile.m; path = Models/Profile.m; sourceTree = "<group>"; };
+		68CE0ADD17DF2E6B00F49889 /* manjeans1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manjeans1.json; sourceTree = "<group>"; };
+		68CE0ADE17DF2E6B00F49889 /* manjeans2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = manjeans2.json; sourceTree = "<group>"; };
+		68CE0ADF17DF2E6B00F49889 /* womanjeans1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanjeans1.json; sourceTree = "<group>"; };
+		68CE0AE017DF2E6B00F49889 /* womanjeans2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = womanjeans2.json; sourceTree = "<group>"; };
+		8B02051617CCFE18008E3895 /* header-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "header-bg.png"; path = "Resources/header-bg.png"; sourceTree = "<group>"; };
+		8B02051817CCFEA0008E3895 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "Resources/logo@2x.png"; sourceTree = "<group>"; };
+		8B02051A17CCFF10008E3895 /* face@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "face@2x.png"; path = "Resources/face@2x.png"; sourceTree = "<group>"; };
+		8B02051C17CD0034008E3895 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tick.png; path = Resources/tick.png; sourceTree = "<group>"; };
+		8B02051D17CD0034008E3895 /* tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tick@2x.png"; path = "Resources/tick@2x.png"; sourceTree = "<group>"; };
+		8B02052117CD0055008E3895 /* belts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = belts.png; sourceTree = "<group>"; };
+		8B02052217CD0055008E3895 /* belts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belts@2x.png"; sourceTree = "<group>"; };
+		8B02052317CD0055008E3895 /* footwear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footwear.png; sourceTree = "<group>"; };
+		8B02052417CD0055008E3895 /* footwear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "footwear@2x.png"; sourceTree = "<group>"; };
+		8B02052517CD0055008E3895 /* gloves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gloves.png; sourceTree = "<group>"; };
+		8B02052617CD0055008E3895 /* gloves@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gloves@2x.png"; sourceTree = "<group>"; };
+		8B02052717CD0055008E3895 /* hats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hats.png; sourceTree = "<group>"; };
+		8B02052817CD0055008E3895 /* hats@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hats@2x.png"; sourceTree = "<group>"; };
+		8B02052917CD0055008E3895 /* jeans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jeans.png; sourceTree = "<group>"; };
+		8B02052A17CD0055008E3895 /* jeans@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jeans@2x.png"; sourceTree = "<group>"; };
+		8B02052B17CD0055008E3895 /* outerwear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = outerwear.png; sourceTree = "<group>"; };
+		8B02052C17CD0055008E3895 /* outerwear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "outerwear@2x.png"; sourceTree = "<group>"; };
+		8B02052D17CD0055008E3895 /* rings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rings.png; sourceTree = "<group>"; };
+		8B02052E17CD0055008E3895 /* rings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rings@2x.png"; sourceTree = "<group>"; };
+		8B02052F17CD0055008E3895 /* shirts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirts.png; sourceTree = "<group>"; };
+		8B02053017CD0055008E3895 /* shirts@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shirts@2x.png"; sourceTree = "<group>"; };
+		8B02053117CD0055008E3895 /* trouser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trouser.png; sourceTree = "<group>"; };
+		8B02053217CD0055008E3895 /* trouser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trouser@2x.png"; sourceTree = "<group>"; };
+		8B02053317CD0055008E3895 /* underwear-bottom-for-men.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwear-bottom-for-men.png"; sourceTree = "<group>"; };
+		8B02053417CD0055008E3895 /* underwear-bottom-for-men@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwear-bottom-for-men@2x.png"; sourceTree = "<group>"; };
+		8B02053517CD0055008E3895 /* underwear-bottom-for-women.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwear-bottom-for-women.png"; sourceTree = "<group>"; };
+		8B02053617CD0055008E3895 /* underwear-bottom-for-women@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwear-bottom-for-women@2x.png"; sourceTree = "<group>"; };
+		8B02053717CD0055008E3895 /* underwear-top-for-women.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwear-top-for-women.png"; sourceTree = "<group>"; };
+		8B02053817CD0055008E3895 /* underwear-top-for-women@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "underwear-top-for-women@2x.png"; sourceTree = "<group>"; };
+		8B02053917CD0055008E3895 /* wear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wear.png; sourceTree = "<group>"; };
+		8B02053A17CD0055008E3895 /* wear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wear@2x.png"; sourceTree = "<group>"; };
+		8B02055517CD0444008E3895 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Resources/background@2x.png"; sourceTree = "<group>"; };
+		8B02055717CD0F77008E3895 /* NotePadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePadViewController.h; sourceTree = "<group>"; };
+		8B02055817CD0F77008E3895 /* NotePadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePadViewController.m; sourceTree = "<group>"; };
+		8B02055A17CD1BC0008E3895 /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		8B02055B17CD1BC0008E3895 /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
+		8B481C5217D0729C001AFD5B /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactsViewController.h; path = Controllers/ContactsViewController.h; sourceTree = "<group>"; };
+		8B481C5317D0729C001AFD5B /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactsViewController.m; path = Controllers/ContactsViewController.m; sourceTree = "<group>"; };
+		8B481C5517D07C16001AFD5B /* inswigo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inswigo.png; sourceTree = "<group>"; };
+		8B481C5617D07C16001AFD5B /* inswigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inswigo@2x.png"; sourceTree = "<group>"; };
+		8B481C5D17D0EEE8001AFD5B /* CustomOrdersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomOrdersViewController.h; path = Controllers/CustomOrdersViewController.h; sourceTree = "<group>"; };
+		8B481C5E17D0EEE8001AFD5B /* CustomOrdersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomOrdersViewController.m; path = Controllers/CustomOrdersViewController.m; sourceTree = "<group>"; };
+		8B6ABF3217CF209700C20E2E /* arrow-light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-light.png"; sourceTree = "<group>"; };
+		8B6ABF3317CF209700C20E2E /* arrow-light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow-light@2x.png"; sourceTree = "<group>"; };
+		8B6ABF3417CF209700C20E2E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		8B6ABF3517CF209700C20E2E /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		8B6ABF4717CF596100C20E2E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		8B6ABF4817CF596100C20E2E /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		8B6ABF4917CF596100C20E2E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		8B6ABF4A17CF596100C20E2E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		8B6ABF4B17CF596100C20E2E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		8B6ABF4C17CF596100C20E2E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		8B75E68317CE395D006157FB /* MainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		8B75E68417CE395D006157FB /* MainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		8B7625F217C2117900B17F87 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Resources/background.png; sourceTree = "<group>"; };
+		8B76260817C2591D00B17F87 /* NameForProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameForProfileViewController.h; sourceTree = "<group>"; };
+		8B76260917C2591D00B17F87 /* NameForProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameForProfileViewController.m; sourceTree = "<group>"; };
+		8B9D232417BFD01A008AB4B4 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = face.png; path = Resources/face.png; sourceTree = "<group>"; };
+		8B9D234817BFD0EF008AB4B4 /* ProfilePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfilePageViewController.h; sourceTree = "<group>"; };
+		8B9D234917BFD0EF008AB4B4 /* ProfilePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfilePageViewController.m; sourceTree = "<group>"; };
+		8B9D234B17BFD171008AB4B4 /* CodGenderAgeControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodGenderAgeControllerViewController.h; sourceTree = "<group>"; };
+		8B9D234C17BFD171008AB4B4 /* CodGenderAgeControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodGenderAgeControllerViewController.m; sourceTree = "<group>"; };
+		8B9D234E17BFD1BB008AB4B4 /* CustomPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPickerViewController.h; sourceTree = "<group>"; };
+		8B9D234F17BFD1BB008AB4B4 /* CustomPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPickerViewController.m; sourceTree = "<group>"; };
+		8BA47B9117BCDFDE00D4E653 /* MonsieurMaurice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsieurMaurice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA47B9517BCDFDE00D4E653 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8BA47B9717BCDFDE00D4E653 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BA47B9917BCDFDE00D4E653 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8BA47B9B17BCDFDE00D4E653 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8BA47B9F17BCDFDE00D4E653 /* MonsieurMaurice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonsieurMaurice-Info.plist"; sourceTree = "<group>"; };
+		8BA47BA317BCDFDE00D4E653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BA47BA517BCDFDE00D4E653 /* MonsieurMaurice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonsieurMaurice-Prefix.pch"; sourceTree = "<group>"; };
+		8BA47BA617BCDFDE00D4E653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BA47BA717BCDFDE00D4E653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BA47BA917BCDFDE00D4E653 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8BA47BAB17BCDFDE00D4E653 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8BA47BAD17BCDFDE00D4E653 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8BA47BB317BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MonsieurMaurice.xcdatamodel; sourceTree = "<group>"; };
+		8BA47BB517BCDFDE00D4E653 /* ProfileListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileListViewController.h; sourceTree = "<group>"; };
+		8BA47BB617BCDFDE00D4E653 /* ProfileListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileListViewController.m; sourceTree = "<group>"; };
+		8BA47BC417BCE3F600D4E653 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = Resources/logo.png; sourceTree = "<group>"; };
+		8BA47BD617BCED1E00D4E653 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BA47BDD17BCF06B00D4E653 /* RSSFeedDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedDetailsViewController.h; sourceTree = "<group>"; };
+		8BA47BDE17BCF06B00D4E653 /* RSSFeedDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedDetailsViewController.m; sourceTree = "<group>"; };
+		8BA47BDF17BCF06B00D4E653 /* RSSFeedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedListViewController.h; sourceTree = "<group>"; };
+		8BA47BE017BCF06B00D4E653 /* RSSFeedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedListViewController.m; sourceTree = "<group>"; };
+		8BB179D517BE1970000EE162 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BA47B8E17BCDFDE00D4E653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68660FAD17D9F30F00C0C1AF /* SystemConfiguration.framework in Frameworks */,
+				8BB179D617BE1970000EE162 /* MessageUI.framework in Frameworks */,
+				8BA47B9617BCDFDE00D4E653 /* UIKit.framework in Frameworks */,
+				8BA47B9817BCDFDE00D4E653 /* Foundation.framework in Frameworks */,
+				8BA47B9A17BCDFDE00D4E653 /* CoreGraphics.framework in Frameworks */,
+				8BA47B9C17BCDFDE00D4E653 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68660FAE17D9F34C00C0C1AF /* Reachibility */ = {
+			isa = PBXGroup;
+			children = (
+				68660FAF17D9F34C00C0C1AF /* Reachability.h */,
+				68660FB017D9F34C00C0C1AF /* Reachability.m */,
+			);
+			path = Reachibility;
+			sourceTree = "<group>";
+		};
+		6879834D17D8AE7E0000315C /* JsonData */ = {
+			isa = PBXGroup;
+			children = (
+				5115859917E5A1720008F329 /* womanouterwear.json */,
+				68CE0ADD17DF2E6B00F49889 /* manjeans1.json */,
+				68CE0ADE17DF2E6B00F49889 /* manjeans2.json */,
+				68CE0ADF17DF2E6B00F49889 /* womanjeans1.json */,
+				68CE0AE017DF2E6B00F49889 /* womanjeans2.json */,
+				6879834E17D8AE7E0000315C /* babyfootwear.json */,
+				6879834F17D8AE7E0000315C /* babywear.json */,
+				6879835017D8AE7E0000315C /* kidboyfootwear.json */,
+				6879835117D8AE7E0000315C /* kidboywear.json */,
+				6879835217D8AE7E0000315C /* kidgirlwear.json */,
+				6879835317D8AE7E0000315C /* manbelts.json */,
+				6879835417D8AE7E0000315C /* manfootwear.json */,
+				6879835517D8AE7E0000315C /* mangloves.json */,
+				6879835617D8AE7E0000315C /* manhats.json */,
+				6879835717D8AE7E0000315C /* manrings.json */,
+				6879835817D8AE7E0000315C /* mantrousers.json */,
+				6879835917D8AE7E0000315C /* manunderwearbottom.json */,
+				6879835A17D8AE7E0000315C /* toddlerboy.json */,
+				6879835B17D8AE7E0000315C /* toddlerboywear.json */,
+				6879835C17D8AE7E0000315C /* toddlergirl.json */,
+				6879835D17D8AE7E0000315C /* toddlergirlwear.json */,
+				6879835E17D8AE7E0000315C /* womanbelts.json */,
+				6879835F17D8AE7E0000315C /* womanfootwear.json */,
+				6879836017D8AE7E0000315C /* womangloves.json */,
+				6879836117D8AE7E0000315C /* womanhats.json */,
+				6879836217D8AE7E0000315C /* womanrings.json */,
+				6879836317D8AE7F0000315C /* womantrousers.json */,
+				6879836417D8AE7F0000315C /* womanunderwearbottom.json */,
+			);
+			path = JsonData;
+			sourceTree = "<group>";
+		};
+		8B02052017CD0055008E3895 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				51927E5617DC858800CA5C14 /* us.png */,
+				51927E5717DC858900CA5C14 /* us@2x.png */,
+				51927E5817DC858900CA5C14 /* usue.png */,
+				51927E5917DC858900CA5C14 /* usue@2x.png */,
+				51927E5A17DC858900CA5C14 /* usukue.png */,
+				51927E5B17DC858900CA5C14 /* usukue@2x.png */,
+				4ACE1BC417D7AC85009E1082 /* shirt_suit_right.png */,
+				4ACE1BC517D7AC85009E1082 /* shirt_suit_right@2x.png */,
+				4ACE1BC617D7AC85009E1082 /* suit.png */,
+				4ACE1BC717D7AC85009E1082 /* suit@2x.png */,
+				8B481C5517D07C16001AFD5B /* inswigo.png */,
+				8B481C5617D07C16001AFD5B /* inswigo@2x.png */,
+				8B6ABF4717CF596100C20E2E /* Icon-72.png */,
+				8B6ABF4817CF596100C20E2E /* Icon-72@2x.png */,
+				8B6ABF4917CF596100C20E2E /* Icon-Small.png */,
+				8B6ABF4A17CF596100C20E2E /* Icon-Small@2x.png */,
+				8B6ABF4B17CF596100C20E2E /* Icon.png */,
+				8B6ABF4C17CF596100C20E2E /* Icon@2x.png */,
+				8B6ABF3217CF209700C20E2E /* arrow-light.png */,
+				8B6ABF3317CF209700C20E2E /* arrow-light@2x.png */,
+				8B6ABF3417CF209700C20E2E /* arrow.png */,
+				8B6ABF3517CF209700C20E2E /* arrow@2x.png */,
+				8B02052117CD0055008E3895 /* belts.png */,
+				8B02052217CD0055008E3895 /* belts@2x.png */,
+				8B02052317CD0055008E3895 /* footwear.png */,
+				8B02052417CD0055008E3895 /* footwear@2x.png */,
+				8B02052517CD0055008E3895 /* gloves.png */,
+				8B02052617CD0055008E3895 /* gloves@2x.png */,
+				8B02052717CD0055008E3895 /* hats.png */,
+				8B02052817CD0055008E3895 /* hats@2x.png */,
+				8B02052917CD0055008E3895 /* jeans.png */,
+				8B02052A17CD0055008E3895 /* jeans@2x.png */,
+				8B02052B17CD0055008E3895 /* outerwear.png */,
+				8B02052C17CD0055008E3895 /* outerwear@2x.png */,
+				8B02052D17CD0055008E3895 /* rings.png */,
+				8B02052E17CD0055008E3895 /* rings@2x.png */,
+				8B02052F17CD0055008E3895 /* shirts.png */,
+				8B02053017CD0055008E3895 /* shirts@2x.png */,
+				8B02053117CD0055008E3895 /* trouser.png */,
+				8B02053217CD0055008E3895 /* trouser@2x.png */,
+				8B02053317CD0055008E3895 /* underwear-bottom-for-men.png */,
+				8B02053417CD0055008E3895 /* underwear-bottom-for-men@2x.png */,
+				8B02053517CD0055008E3895 /* underwear-bottom-for-women.png */,
+				8B02053617CD0055008E3895 /* underwear-bottom-for-women@2x.png */,
+				8B02053717CD0055008E3895 /* underwear-top-for-women.png */,
+				8B02053817CD0055008E3895 /* underwear-top-for-women@2x.png */,
+				8B02053917CD0055008E3895 /* wear.png */,
+				8B02053A17CD0055008E3895 /* wear@2x.png */,
+			);
+			name = icons;
+			path = Resources/icons;
+			sourceTree = "<group>";
+		};
+		8B481C5117CF7165001AFD5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				687A982017E7391300AE2D6E /* Profile.h */,
+				687A982117E7391300AE2D6E /* Profile.m */,
+				8B02055A17CD1BC0008E3895 /* Notes.h */,
+				8B02055B17CD1BC0008E3895 /* Notes.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B97BFFB17C0D4210057DF6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				51248CF717E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.h */,
+				51248CF817E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.m */,
+				8B75E68317CE395D006157FB /* MainPageViewController.h */,
+				8B75E68417CE395D006157FB /* MainPageViewController.m */,
+				8B02055717CD0F77008E3895 /* NotePadViewController.h */,
+				8B02055817CD0F77008E3895 /* NotePadViewController.m */,
+				8B76260817C2591D00B17F87 /* NameForProfileViewController.h */,
+				8B76260917C2591D00B17F87 /* NameForProfileViewController.m */,
+				8BA47BB517BCDFDE00D4E653 /* ProfileListViewController.h */,
+				8BA47BB617BCDFDE00D4E653 /* ProfileListViewController.m */,
+				8B9D234B17BFD171008AB4B4 /* CodGenderAgeControllerViewController.h */,
+				8B9D234C17BFD171008AB4B4 /* CodGenderAgeControllerViewController.m */,
+				8B481C5217D0729C001AFD5B /* ContactsViewController.h */,
+				8B481C5317D0729C001AFD5B /* ContactsViewController.m */,
+				8B481C5D17D0EEE8001AFD5B /* CustomOrdersViewController.h */,
+				8B481C5E17D0EEE8001AFD5B /* CustomOrdersViewController.m */,
+				8B9D234E17BFD1BB008AB4B4 /* CustomPickerViewController.h */,
+				8B9D234F17BFD1BB008AB4B4 /* CustomPickerViewController.m */,
+				51B28CB917DE40B0008AC6B6 /* JeansAccessoryViewController.h */,
+				51B28CBA17DE40B0008AC6B6 /* JeansAccessoryViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8BA47B8617BCDFDD00D4E653 = {
+			isa = PBXGroup;
+			children = (
+				8BA47B9D17BCDFDE00D4E653 /* MonsieurMaurice */,
+				8BA47B9417BCDFDE00D4E653 /* Frameworks */,
+				8BA47B9217BCDFDE00D4E653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BA47B9217BCDFDE00D4E653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BA47B9117BCDFDE00D4E653 /* MonsieurMaurice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA47B9417BCDFDE00D4E653 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68660FAC17D9F30F00C0C1AF /* SystemConfiguration.framework */,
+				8BB179D517BE1970000EE162 /* MessageUI.framework */,
+				8BA47B9517BCDFDE00D4E653 /* UIKit.framework */,
+				8BA47B9717BCDFDE00D4E653 /* Foundation.framework */,
+				8BA47B9917BCDFDE00D4E653 /* CoreGraphics.framework */,
+				8BA47B9B17BCDFDE00D4E653 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BA47B9D17BCDFDE00D4E653 /* MonsieurMaurice */ = {
+			isa = PBXGroup;
+			children = (
+				6879834D17D8AE7E0000315C /* JsonData */,
+				8B97BFFB17C0D4210057DF6C /* Controllers */,
+				8BA47BC317BCE3E100D4E653 /* Resources */,
+				8BA47BA617BCDFDE00D4E653 /* AppDelegate.h */,
+				8BA47BA717BCDFDE00D4E653 /* AppDelegate.m */,
+				5115859617E5943A0008F329 /* WomenOuterWearVewController.h */,
+				5115859717E5943A0008F329 /* WomenOuterWearVewController.m */,
+				8B9D234817BFD0EF008AB4B4 /* ProfilePageViewController.h */,
+				8B9D234917BFD0EF008AB4B4 /* ProfilePageViewController.m */,
+				8BA47B9E17BCDFDE00D4E653 /* Supporting Files */,
+				8BA47BDC17BCF06B00D4E653 /* RSSFeed */,
+				68660FAE17D9F34C00C0C1AF /* Reachibility */,
+				8B481C5117CF7165001AFD5B /* Model */,
+			);
+			path = MonsieurMaurice;
+			sourceTree = "<group>";
+		};
+		8BA47B9E17BCDFDE00D4E653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA47B9F17BCDFDE00D4E653 /* MonsieurMaurice-Info.plist */,
+				8BA47BA017BCDFDE00D4E653 /* InfoPlist.strings */,
+				8BA47BA317BCDFDE00D4E653 /* main.m */,
+				8BA47BA517BCDFDE00D4E653 /* MonsieurMaurice-Prefix.pch */,
+				8BA47BA917BCDFDE00D4E653 /* Default.png */,
+				8BA47BAB17BCDFDE00D4E653 /* Default@2x.png */,
+				8BA47BAD17BCDFDE00D4E653 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BA47BC317BCE3E100D4E653 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6834BE7D17E86BFF002A1D91 /* sizecmin.png */,
+				6834BE7E17E86BFF002A1D91 /* sizecmin@2x.png */,
+				6834BE7F17E86BFF002A1D91 /* sizein.png */,
+				6834BE8017E86BFF002A1D91 /* sizein@2x.png */,
+				6834BE7917E850F2002A1D91 /* wl.png */,
+				6834BE7A17E850F2002A1D91 /* wl@2x.png */,
+				8BA47BAF17BCDFDE00D4E653 /* MainStoryboard.storyboard */,
+				8BA47BB217BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodeld */,
+				8BA47BD317BCECFF00D4E653 /* Localizable.strings */,
+				8B02051C17CD0034008E3895 /* tick.png */,
+				8B02051D17CD0034008E3895 /* tick@2x.png */,
+				8B9D232417BFD01A008AB4B4 /* face.png */,
+				8B02051A17CCFF10008E3895 /* face@2x.png */,
+				8BA47BC417BCE3F600D4E653 /* logo.png */,
+				8B02051817CCFEA0008E3895 /* logo@2x.png */,
+				8B02051617CCFE18008E3895 /* header-bg.png */,
+				8B7625F217C2117900B17F87 /* background.png */,
+				8B02055517CD0444008E3895 /* background@2x.png */,
+				8B02052017CD0055008E3895 /* icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8BA47BDC17BCF06B00D4E653 /* RSSFeed */ = {
+			isa = PBXGroup;
+			children = (
+				8BA47BDF17BCF06B00D4E653 /* RSSFeedListViewController.h */,
+				8BA47BE017BCF06B00D4E653 /* RSSFeedListViewController.m */,
+				8BA47BDD17BCF06B00D4E653 /* RSSFeedDetailsViewController.h */,
+				8BA47BDE17BCF06B00D4E653 /* RSSFeedDetailsViewController.m */,
+			);
+			path = RSSFeed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BA47B9017BCDFDE00D4E653 /* MonsieurMaurice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BA47BBD17BCDFDE00D4E653 /* Build configuration list for PBXNativeTarget "MonsieurMaurice" */;
+			buildPhases = (
+				8BA47B8D17BCDFDE00D4E653 /* Sources */,
+				8BA47B8E17BCDFDE00D4E653 /* Frameworks */,
+				8BA47B8F17BCDFDE00D4E653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonsieurMaurice;
+			productName = MonsieurMaurice;
+			productReference = 8BA47B9117BCDFDE00D4E653 /* MonsieurMaurice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BA47B8817BCDFDD00D4E653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Monsieur Maurice";
+			};
+			buildConfigurationList = 8BA47B8B17BCDFDD00D4E653 /* Build configuration list for PBXProject "MonsieurMaurice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+			);
+			mainGroup = 8BA47B8617BCDFDD00D4E653;
+			productRefGroup = 8BA47B9217BCDFDE00D4E653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BA47B9017BCDFDE00D4E653 /* MonsieurMaurice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BA47B8F17BCDFDE00D4E653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA47BA217BCDFDE00D4E653 /* InfoPlist.strings in Resources */,
+				8BA47BAA17BCDFDE00D4E653 /* Default.png in Resources */,
+				8BA47BAC17BCDFDE00D4E653 /* Default@2x.png in Resources */,
+				8BA47BAE17BCDFDE00D4E653 /* Default-568h@2x.png in Resources */,
+				8BA47BB117BCDFDE00D4E653 /* MainStoryboard.storyboard in Resources */,
+				8BA47BC517BCE3F600D4E653 /* logo.png in Resources */,
+				8BA47BD117BCECFF00D4E653 /* Localizable.strings in Resources */,
+				8B9D232517BFD01A008AB4B4 /* face.png in Resources */,
+				8B7625F317C2117900B17F87 /* background.png in Resources */,
+				8B02051717CCFE18008E3895 /* header-bg.png in Resources */,
+				8B02051917CCFEA0008E3895 /* logo@2x.png in Resources */,
+				8B02051B17CCFF10008E3895 /* face@2x.png in Resources */,
+				8B02051E17CD0034008E3895 /* tick.png in Resources */,
+				8B02051F17CD0034008E3895 /* tick@2x.png in Resources */,
+				8B02053B17CD0055008E3895 /* belts.png in Resources */,
+				8B02053C17CD0055008E3895 /* belts@2x.png in Resources */,
+				8B02053D17CD0055008E3895 /* footwear.png in Resources */,
+				8B02053E17CD0055008E3895 /* footwear@2x.png in Resources */,
+				8B02053F17CD0055008E3895 /* gloves.png in Resources */,
+				8B02054017CD0055008E3895 /* gloves@2x.png in Resources */,
+				8B02054117CD0055008E3895 /* hats.png in Resources */,
+				8B02054217CD0055008E3895 /* hats@2x.png in Resources */,
+				8B02054317CD0055008E3895 /* jeans.png in Resources */,
+				8B02054417CD0055008E3895 /* jeans@2x.png in Resources */,
+				8B02054517CD0055008E3895 /* outerwear.png in Resources */,
+				8B02054617CD0055008E3895 /* outerwear@2x.png in Resources */,
+				8B02054717CD0055008E3895 /* rings.png in Resources */,
+				8B02054817CD0055008E3895 /* rings@2x.png in Resources */,
+				8B02054917CD0055008E3895 /* shirts.png in Resources */,
+				8B02054A17CD0055008E3895 /* shirts@2x.png in Resources */,
+				8B02054B17CD0055008E3895 /* trouser.png in Resources */,
+				8B02054C17CD0055008E3895 /* trouser@2x.png in Resources */,
+				8B02054D17CD0055008E3895 /* underwear-bottom-for-men.png in Resources */,
+				8B02054E17CD0055008E3895 /* underwear-bottom-for-men@2x.png in Resources */,
+				8B02054F17CD0055008E3895 /* underwear-bottom-for-women.png in Resources */,
+				8B02055017CD0055008E3895 /* underwear-bottom-for-women@2x.png in Resources */,
+				8B02055117CD0055008E3895 /* underwear-top-for-women.png in Resources */,
+				8B02055217CD0055008E3895 /* underwear-top-for-women@2x.png in Resources */,
+				8B02055317CD0055008E3895 /* wear.png in Resources */,
+				8B02055417CD0055008E3895 /* wear@2x.png in Resources */,
+				8B02055617CD0444008E3895 /* background@2x.png in Resources */,
+				8B6ABF3617CF209700C20E2E /* arrow-light.png in Resources */,
+				8B6ABF3717CF209700C20E2E /* arrow-light@2x.png in Resources */,
+				8B6ABF3817CF209700C20E2E /* arrow.png in Resources */,
+				8B6ABF3917CF209700C20E2E /* arrow@2x.png in Resources */,
+				8B6ABF4D17CF596100C20E2E /* Icon-72.png in Resources */,
+				8B6ABF4E17CF596100C20E2E /* Icon-72@2x.png in Resources */,
+				8B6ABF4F17CF596100C20E2E /* Icon-Small.png in Resources */,
+				8B6ABF5017CF596100C20E2E /* Icon-Small@2x.png in Resources */,
+				8B6ABF5117CF596100C20E2E /* Icon.png in Resources */,
+				8B6ABF5217CF596100C20E2E /* Icon@2x.png in Resources */,
+				8B481C5717D07C17001AFD5B /* inswigo.png in Resources */,
+				8B481C5817D07C17001AFD5B /* inswigo@2x.png in Resources */,
+				4ACE1BC817D7AC85009E1082 /* shirt_suit_right.png in Resources */,
+				4ACE1BC917D7AC85009E1082 /* shirt_suit_right@2x.png in Resources */,
+				4ACE1BCA17D7AC85009E1082 /* suit.png in Resources */,
+				4ACE1BCB17D7AC85009E1082 /* suit@2x.png in Resources */,
+				6879836517D8AE7F0000315C /* babyfootwear.json in Resources */,
+				6879836617D8AE7F0000315C /* babywear.json in Resources */,
+				6879836717D8AE7F0000315C /* kidboyfootwear.json in Resources */,
+				6879836817D8AE7F0000315C /* kidboywear.json in Resources */,
+				6879836917D8AE7F0000315C /* kidgirlwear.json in Resources */,
+				6879836A17D8AE7F0000315C /* manbelts.json in Resources */,
+				6879836B17D8AE7F0000315C /* manfootwear.json in Resources */,
+				6879836C17D8AE7F0000315C /* mangloves.json in Resources */,
+				6879836D17D8AE7F0000315C /* manhats.json in Resources */,
+				6879836E17D8AE7F0000315C /* manrings.json in Resources */,
+				6879836F17D8AE7F0000315C /* mantrousers.json in Resources */,
+				6879837017D8AE7F0000315C /* manunderwearbottom.json in Resources */,
+				6879837117D8AE7F0000315C /* toddlerboy.json in Resources */,
+				6879837217D8AE7F0000315C /* toddlerboywear.json in Resources */,
+				6879837317D8AE7F0000315C /* toddlergirl.json in Resources */,
+				6879837417D8AE7F0000315C /* toddlergirlwear.json in Resources */,
+				6879837517D8AE7F0000315C /* womanbelts.json in Resources */,
+				6879837617D8AE7F0000315C /* womanfootwear.json in Resources */,
+				6879837717D8AE7F0000315C /* womangloves.json in Resources */,
+				6879837817D8AE7F0000315C /* womanhats.json in Resources */,
+				6879837917D8AE7F0000315C /* womanrings.json in Resources */,
+				6879837A17D8AE7F0000315C /* womantrousers.json in Resources */,
+				6879837B17D8AE7F0000315C /* womanunderwearbottom.json in Resources */,
+				51927E5C17DC858900CA5C14 /* us.png in Resources */,
+				51927E5D17DC858900CA5C14 /* us@2x.png in Resources */,
+				51927E5E17DC858900CA5C14 /* usue.png in Resources */,
+				51927E5F17DC858900CA5C14 /* usue@2x.png in Resources */,
+				51927E6017DC858900CA5C14 /* usukue.png in Resources */,
+				51927E6117DC858900CA5C14 /* usukue@2x.png in Resources */,
+				68CE0AE117DF2E6B00F49889 /* manjeans1.json in Resources */,
+				68CE0AE217DF2E6B00F49889 /* manjeans2.json in Resources */,
+				68CE0AE317DF2E6B00F49889 /* womanjeans1.json in Resources */,
+				68CE0AE417DF2E6B00F49889 /* womanjeans2.json in Resources */,
+				5115859A17E5A1720008F329 /* womanouterwear.json in Resources */,
+				6834BE7B17E850F2002A1D91 /* wl.png in Resources */,
+				6834BE7C17E850F2002A1D91 /* wl@2x.png in Resources */,
+				6834BE8117E86BFF002A1D91 /* sizecmin.png in Resources */,
+				6834BE8217E86BFF002A1D91 /* sizecmin@2x.png in Resources */,
+				6834BE8317E86BFF002A1D91 /* sizein.png in Resources */,
+				6834BE8417E86BFF002A1D91 /* sizein@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BA47B8D17BCDFDE00D4E653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51EF967817DE50AA00D0322C /* JeansAccessoryViewController.m in Sources */,
+				8B8667A417CE3BC7003C6299 /* MainPageViewController.m in Sources */,
+				8BA47BA417BCDFDE00D4E653 /* main.m in Sources */,
+				8BA47BA817BCDFDE00D4E653 /* AppDelegate.m in Sources */,
+				8BA47BB417BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodeld in Sources */,
+				8BA47BB717BCDFDE00D4E653 /* ProfileListViewController.m in Sources */,
+				8BA47BE117BCF06B00D4E653 /* RSSFeedDetailsViewController.m in Sources */,
+				8BA47BE217BCF06B00D4E653 /* RSSFeedListViewController.m in Sources */,
+				8B9D234A17BFD0EF008AB4B4 /* ProfilePageViewController.m in Sources */,
+				8B9D234D17BFD171008AB4B4 /* CodGenderAgeControllerViewController.m in Sources */,
+				8B9D235017BFD1BC008AB4B4 /* CustomPickerViewController.m in Sources */,
+				8B76260A17C2591D00B17F87 /* NameForProfileViewController.m in Sources */,
+				8B02055917CD0F77008E3895 /* NotePadViewController.m in Sources */,
+				8B02055C17CD1BC0008E3895 /* Notes.m in Sources */,
+				8B481C5417D0729C001AFD5B /* ContactsViewController.m in Sources */,
+				8B481C5F17D0EEE9001AFD5B /* CustomOrdersViewController.m in Sources */,
+				68660FB117D9F34C00C0C1AF /* Reachability.m in Sources */,
+				51248CF917E0DFBF008ECEC8 /* WomanUnderwearPickerViewController.m in Sources */,
+				5115859817E5943A0008F329 /* WomenOuterWearVewController.m in Sources */,
+				687A982217E7391300AE2D6E /* Profile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8BA47BA017BCDFDE00D4E653 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BA47BD617BCED1E00D4E653 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BA47BAF17BCDFDE00D4E653 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6834BE8917E9E4A0002A1D91 /* fr */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		8BA47BD317BCECFF00D4E653 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A140E3917D901E70002918D /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BA47BBB17BCDFDE00D4E653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BA47BBC17BCDFDE00D4E653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BA47BBE17BCDFDE00D4E653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsieurMaurice/MonsieurMaurice-Prefix.pch";
+				INFOPLIST_FILE = "MonsieurMaurice/MonsieurMaurice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BA47BBF17BCDFDE00D4E653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonsieurMaurice/MonsieurMaurice-Prefix.pch";
+				INFOPLIST_FILE = "MonsieurMaurice/MonsieurMaurice-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BA47B8B17BCDFDD00D4E653 /* Build configuration list for PBXProject "MonsieurMaurice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA47BBB17BCDFDE00D4E653 /* Debug */,
+				8BA47BBC17BCDFDE00D4E653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BA47BBD17BCDFDE00D4E653 /* Build configuration list for PBXNativeTarget "MonsieurMaurice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BA47BBE17BCDFDE00D4E653 /* Debug */,
+				8BA47BBF17BCDFDE00D4E653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BA47BB217BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BA47BB317BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodel */,
+			);
+			currentVersion = 8BA47BB317BCDFDE00D4E653 /* MonsieurMaurice.xcdatamodel */;
+			path = MonsieurMaurice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BA47B8817BCDFDD00D4E653 /* Project object */;
+}

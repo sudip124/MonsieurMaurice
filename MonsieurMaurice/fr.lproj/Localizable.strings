@@ -1,0 +1,69 @@
+/*
+ Localizable.strings
+ MonsieurMaurice
+ 
+ Created by Sudip Pal on 15/08/13.
+ Copyright (c) 2013 Monsieur Maurice. All rights reserved.
+ */
+
+"Measure" = "Mesure";
+"Latest News" = "News";
+"Contact" = "Contact";
+"Footwear" = "Chaussures";
+"Hats" = "Chapeaux";
+"Rings" = "Bijoux";
+"Outerwear" = "Vêtements d'extérieur";
+"Jeans" = "Jeans";
+"Trousers" = "Trousers";
+"Shirts" = "Chemises";
+"UnderwearTop" = "Sous-vetements haut";
+"UnderwearBottom" = "Sous-vetements bas";
+"Belts" = "Ceintures";
+"Gloves" = "Gants";
+"Wear" = "Vêtements";
+"MailSubject" = "Sujet du mail";
+"MailBody" = "Contenu du mail";
+"Profiles" = "Profils";
+"Gender" = "Sexe, Age";
+"Man" = "Homme";
+"Woman" = "Femme";
+"Kidboy" = "Garçon";
+"Kidgirl" = "Fille";
+"Toddlerboy" = "Petit Garçon";
+"Toddlergirl" = "Petite Fille";
+"Baby" = "Bébé";
+"years" = " ans";
+"CmMeasure" = "Mesure en cm";
+"InchMeasure" = "Mesure en pouces";
+"Note" = "Prendre une note";
+"Cancel" = "Annuler";
+"inch" = "pouce";
+"cm" = "cm";
+"NameError" = " S'il vous plait, entrez votre nom";
+"FirstName" = "Prénom";
+"LastName" = "Nom de famille";
+"OK" = "OK";
+"DeletePhoto" = "Effacer photo";
+"CameraRoll" = "Choisir une photo";
+"TakePhoto" = "Prendre une photo";
+"Dismiss" = "Annuler";
+"DBSaveError" = "Impossible de sauvegarder";
+"ChangeGenderTitle" = "Changer de sexe";
+"ChangeGenderMsg" = "Si vous changez le sex, vous perderez toutes les sauvegardes";
+"Yes" = "Oui";
+"Your" = "Votre";
+"Name" = "Nom";
+"UnsavedNotesTitle" = "Notes non sauvegardées";
+"UnsavedNotes" = "Voulez-vous continuer sans sauvegarder?";
+"UnsavedName" = "Impossible de procéder";
+"Suites" = "Complets";
+"foot" = "Pied";
+"head" = "Tête";
+"finger" = "Doigt";
+"waist" = "Taille";
+"hand" = "Main";
+"breast" = "Poitrine";
+"bust" = "Buste";
+"height" = "Hauteur";
+"nointernet" = "Impossible de charger le flux RSS";
+"MainPageText" = "Pas besoin de faire les boutiques, pas de souci de place de parc… monsieurMaurice se déplace à domicile ou sur votre lieu de travail. Facile et rapide, monsieurMaurice vous propose du sur mesure de haute qualité au prix d’un bon prêt-à-porter.";
